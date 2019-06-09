@@ -12,14 +12,15 @@ import java.util.Optional;
  * Created by bga_s on 09.06.2019.
  */
 @Service
-//@Transactional
+@Transactional
 public class TravelService {
 
     @Autowired
     TravelRepository travelRepository;
 
     public Optional<Travel> getTravel(Integer id){
-        return travelRepository.findById(id);
+        Optional<Travel> byId = travelRepository.findById(id);
+        return byId;
     }
 
     public void persistTravel(Travel travel){

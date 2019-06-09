@@ -16,7 +16,7 @@ import javax.persistence.Table;
 @Getter
 @Setter
 @AllArgsConstructor
-//@Table(name = "Customer")
+@Table(name = "Customer")
 public class Customer {
     @Id
     @GeneratedValue
