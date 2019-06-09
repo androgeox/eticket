@@ -12,7 +12,7 @@ import java.util.Optional;
  * Created by bga_s on 09.06.2019.
  */
 @Service
-@Transactional
+//@Transactional
 public class TravelService {
 
     @Autowired
