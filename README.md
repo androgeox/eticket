@@ -2,11 +2,11 @@
 
 # Technology
 
-# SpringBoot
-# Hibernate
-# PostgreSQL
+* SpringBoot
+* Hibernate
+* PostgreSQL
 
-# Сервис доступен по ссылке http://188.225.10.57:8080 до 14.06
+* Сервис доступен по ссылке http://188.225.10.57:8080 до 14.06
 
 # API
 * /customer/id - GET
